@@ -1,10 +1,6 @@
 #!/bin/zsh
 # tralph3's Arch installation script
-
-# fetch scripts
-curl -Lo definitions.sh "https://raw.githubusercontent.com/tralph3/arch-install/master/definitions.sh"
-curl -Lo packages.sh "https://raw.githubusercontent.com/tralph3/arch-install/master/packages.sh"
-
+SECONDS=0
 source definitions.sh
 source packages.sh
 
@@ -31,4 +27,4 @@ EOF
 # clean up
 rm -fv /mnt/definitions.sh
 umount -R /mnt
-reboot
+echo "Elapsed time: $SECONDS seconds"

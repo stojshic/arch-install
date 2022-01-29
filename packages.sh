@@ -5,63 +5,24 @@ BASE=(
     'base'
     'linux'
     'linux-firmware'
+    'base-devel'
+    'vim'
+    'nano'
+    'sudo'
+    'archlinux-keyring'
+    'wget'
+    'libnewt'
 )
 
 # basic system components
 BASE_APPS=(
-    'base-devel'
-    'dialog'
-    'dosfstools'
-    'efibootmgr'
-    'git'
-    'gnu-free-fonts'
-    'grub'
-    'linux-headers'
-    'man-db'
-    'mtools'
-    'network-manager-applet'
-    'networkmanager'
-    'openssh'
-    'os-prober'
-    'python'
-    'reflector'
-    'usbutils'
-    'wget'
-    'xdg-user-dirs'
-    'zsh'
-)
+    ''
+    )
 
 # user applications
 APPS=(
-    'alacritty'
-    'android-tools'
-    'audacity'
-    'cronie'
-    'cups'
-    'exa'
-    'ffmpeg'
-    'firefox'
-    'flameshot'
-    'gimp'
-    'htop'
-    'mlocate'
-    'mpv'
-    'neofetch'
-    'neovim'
-    'neovim-plug'
-    'nerd-fonts-ubuntu-mono'
-    'numlockx'
-    'p7zip'
-    'qbittorrent'
-    'unrar'
-    'unzip'
-    'xclip'
-    'zenity'
-    'zip'
-    'zsh-autosuggestions'
-    'zsh-syntax-highlighting'
-    'zsh-theme-powerlevel10k'
-)
+    ''
+    )
 
 GAMING_APPS=(
     'discord'
@@ -82,10 +43,6 @@ GAMING_APPS=(
 
 # all of these will get enabled
 SERVICES=(
-    'cronie'
-    'cups'
-    'NetworkManager'
-    'sshd'
 )
 
 # this will get populated automatically
@@ -105,6 +62,7 @@ ENVIRONMENTS=(
     'LXQT'
     'MATE'
     'XFCE'
+    'SERVER'
 )
 
 BUDGIE=(
@@ -185,6 +143,10 @@ MATE=(
     'mate'
     'mate-extra'
     'xorg-server'
+)
+
+SERVER=(
+    ''
 )
 
 XFCE=(
